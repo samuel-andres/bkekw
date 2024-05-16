@@ -1,9 +1,7 @@
 [![Maintainer](https://img.shields.io/badge/maintainer-lebarondecharlus-blue)](https://github.com/samuel-andres)
 [![MIT License](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/)
 
-<p align="center">
-    <img src="./b.png" width="50%">
-</p>
+![image](b.png)
 
 *bkekw is (an ugly, even uglier than [b](https://github.com/LeBaronDeCharlus/b)), tool that allows you to copy your Bitwarden/Vaultwarden password directly from your terminal.*
 
