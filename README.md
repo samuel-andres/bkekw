@@ -5,7 +5,7 @@
     <img src="./b.png" width="50%">
 </p>
 
-*bkekw is (an ugly, even uglier than [b](https://github.com/LeBaronDeCharlus/b) ), a tool that allows you to copy your Bitwarden/Vaultwarden password directly from your terminal.*
+*bkekw is (an ugly, even uglier than [b](https://github.com/LeBaronDeCharlus/b)), tool that allows you to copy your Bitwarden/Vaultwarden password directly from your terminal.*
 
 ### Why?
 
