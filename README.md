@@ -2,11 +2,11 @@
 
 ![image](b.png)
 
-*bkekw is (an ugly, even uglier than [b](https://github.com/LeBaronDeCharlus/b)), tool that allows you to copy your Bitwarden/Vaultwarden password directly from your terminal.*
+*bkekw is (an ugly, even uglier than [b](https://github.com/LeBaronDeCharlus/b)) tool that allows you to copy your Bitwarden/Vaultwarden password directly from your terminal.*
 
 ### Why?
 
-It works for me. You run it in a shell session. The first time, it will prompt you for the master password, but consecutive times that you run `b` within the session, the vault will already be unlocked. I use it on a dwm st scratchpad, by the way.
+It works for me. You run it in a shell session. The first time, it will prompt you for the master password, but consecutive times that you run `b` within the session, the vault will already be unlocked. I use it on a dwm st scratchpad btw.
 
 ### Demo
 
