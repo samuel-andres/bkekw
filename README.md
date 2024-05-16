@@ -27,7 +27,7 @@ It works for me. You run it in a shell session. The first time, it will prompt y
 Move the `b` file to `~/.local/bin`.
 
 ```shell
-mv b /usr/local/bin
+mv b ~/.local/bin
 ```
 
 Create the alias to run the program from the current context:
