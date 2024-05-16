@@ -21,10 +21,10 @@ It works for me. You run it in a shell session. The first time, it will prompt y
 
 ### Installation
 
-Move the `b` file to `~/.local/bin`.
+Move the `bkekw` file to `~/.local/bin`.
 
 ```shell
-mv b ~/.local/bin
+mv bkekw ~/.local/bin
 ```
 
 Create the alias to run the program from the current context:
