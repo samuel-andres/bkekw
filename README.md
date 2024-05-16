@@ -1,4 +1,3 @@
-[![Maintainer](https://img.shields.io/badge/maintainer-lebarondecharlus-blue)](https://github.com/samuel-andres)
 [![MIT License](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/)
 
 ![image](b.png)
