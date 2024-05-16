@@ -5,7 +5,9 @@
     <img src="./b.png" width="50%">
 </p>
 <p align="center">
-    **bkekw** is (an ugly, even uglier than [b](https://github.com/LeBaronDeCharlus/b)), a tool that allows you to copy your Bitwarden/Vaultwarden password directly from your terminal.
+    <i>
+        **bkekw** is (an ugly, even uglier than [b](https://github.com/LeBaronDeCharlus/b) ), a tool that allows you to copy your Bitwarden/Vaultwarden password directly from your terminal.
+    </i>
 </p>
 
 ### Why?
