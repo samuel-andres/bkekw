@@ -1,35 +1,41 @@
-[![Maintainer](https://img.shields.io/badge/maintainer-lebarondecharlus-blue)](https://github.com/Kaderovski)
+[![Maintainer](https://img.shields.io/badge/maintainer)](https://github.com/samuel-andres)
 [![MIT License](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/)
+
 <p align="center">
     <img src="./b.png" width="50%">
 </p>
-<p align="center"><i>b is (an ugly) a tool that allows you to copy your Bitwarden/Vaultwarden password directly from your terminal.</i></p>
+<p align="center">
+    <i>
+        **bkekw** is (an ugly, even uglier than [**b**](https://github.com/LeBaronDeCharlus/b)), a tool that allows you to copy your Bitwarden/Vaultwarden password directly from your terminal.
+    </i>
+</p>
 
+### Why?
+
+It works for me. You run it in a shell session. The first time, it will prompt you for the master password, but consecutive times that you run `b` within the session, the vault will already be unlocked. I use it on a dwm st scratchpad, by the way.
 
 ### Demo
+
 ![](b.gif)
 
 ### Dependencies
-- `bw` (Bitwarden cli)
+
+- `bw`
 - `xclip`
 - `jq`
 - `fzf`
-- `fzf-tmux`
 
 ### Installation
-You need to create a Bitwarden token, [check documentation here](https://bitwarden.com/help/personal-api-key/).
-Then set variables in b script.
+
+Move the `b` file to `~/.local/bin`.
 
 ```shell
-# Fill these vars
-export BW_CLIENTID=''
-export BW_CLIENTSECRET=''
-export BW_PASSWORD=''
+mv b /usr/local/bin
 ```
 
-Finally move `b` file to `/usr/local/bin`.
+Create the alias to run the program from the current context:
 ```shell
-sudo mv b /usr/local/bin 
+alias b=". ~/.local/bin/bkekw"
 ```
 
 ### Usage
@@ -38,10 +44,4 @@ Search for a password :
 # ex, search github password
 b github
 ```
-
-Sync vault (download new password from Bitwarden/Vaultwarden server):
-```shell
-b --sync
-```
-
 
